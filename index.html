@@ -34,6 +34,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+
+    <!--Media Queries-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="./assets/css/tablet.css"
+      media="screen and (min-width: 720px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/desktop.css"
+      media="screen and (min-width: 1024px)"
+    />
     <title>Andres Guano | Web Developer</title>
   </head>
 
@@ -41,35 +55,54 @@
     <!-- Navbar -->
     <nav>
       <h1>ANDRES GUANO</h1>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon name="menu-outline" class="bars"></ion-icon>
+      </button>
       <ul class="navigation">
+        <!--
         <li><a href="#about" class="nav-link">About</a></li>
+        -->
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
-      <button class="burger-menu" id="burger-menu">
-        <ion-icon name="menu-outline" class="bars"></ion-icon>
-      </button>
     </nav>
 
     <!-- Hero Section -->
 
+    <!--- Cosas por hacer: 
+      1.Cambiar el nombre de la imagen y el alt
+    -->
+
+    <section class="hero" id="about">
+      <img
+        src="assets/images/heroImage.svg"
+        alt="Hero Image"
+        loading="lazy"
+        class="hero-img"
+      />
+      <!--animate__animated animate__shakeX-->
+      <div class="bio">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          💻 Highly motivated and enthusiastic frontend web developer. <br />
+          🤝 Excellent team player and passionate for building good working
+          relationships as well as learn from others. <br />
+          👨‍💻 Dedicated and organized individual ready to undertake new
+          challenges and help solve difficult problems.
+        </p>
+      </div>
+    </section>
+
     <!-- More about -->
-
-    <!-- Skills section -->
-
-    <!-- Projects section -->
-
-    <!-- Contact section -->
-
-    <!-- Social accounts - Fixed to the right -->
-
-    <!-- Scroll to top -->
-
-    <!-- Footer section -->
-
+    <!--
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>Llenar despues ??</p>
+    </section>
+    -->
     <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
+    <script src="./assets/js/app.js"></script>
 
     <!-- Ion icons scripts -->
     <script
