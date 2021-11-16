@@ -290,6 +290,7 @@ nav .show {
 
 .project-details {
   margin-bottom: var(--bottom-margin);
+  text-align: justify;
 }
 
 .project-card {
@@ -305,6 +306,12 @@ nav .show {
 .project-card:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.project-tools {
+  font-size: 2.5rem;
+  margin: 0 auto;
+  padding: 1rem 0 0;
 }
 
 @media screen and (min-width: 420px) {
